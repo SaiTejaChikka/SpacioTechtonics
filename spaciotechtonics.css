@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.book-an-appointment-section {
+    background-image: url('https://res.cloudinary.com/djr1nhero/image/upload/v1733382574/image1_x4njsk.png');
+    background-size: cover;
+    height: 450px;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.headlines-page {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.nav-element {
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+
+.btn-style {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #19147a;
+    text-decoration: none;
+    width: 250px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+}
+
+.container-1 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px 20px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.highlight {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.closing {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta {
+    margin-top: 40px;
+}
+
+.heading-btn-container {
+    height: 100%;
+    padding: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cta-button {
+
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+.Exceptional-facades-delivered-container {
+    background-image: url('https://res.cloudinary.com/djr1nhero/image/upload/v1733382583/Spacio_TechTonics_Consultancy_V21_kuvhln.png');
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Exceptional-heading {
+    font-family: "Roboto";
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.descrption-our-presence {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: black;
+}
+
+.cities-list {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: black;
+}
+
+.cities-count-details {
+    width: 500px;
+    box-shadow: 20px 20px 50px grey;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.count-heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.para-size {
+    font-size: 13px;
+}
+
+.count-para-container {
+    display: flex;
+    text-align: center;
+}
+
+.map-cities-details-section {
+    display: flex;
+}
+
+.break {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.projects-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.highlight-bar {
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.projects-view-all {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.projects-view-all i {
+    margin-left: 5px;
+}
+
+/* Gallery Section */
+.projects-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover img {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-overlay p {
+    margin: 0;
+}
+
+.project-overlay i {
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .map-cities-details-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .projects-view-all {
+        margin-top: 10px;
+    }
+}
+
+.insights-section-1 {
+    width: 90%;
+    margin: 40px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.insights-title-1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+.carousel-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.arrow-1 {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.carousel-items-1 {
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+    flex: 1;
+    justify-content: center;
+}
+
+.carousel-item-1 {
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon-1 {
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto 10px;
+}
+
+.description-1 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.date-1 {
+    font-size: 14px;
+    color: #888;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #7a2020;
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.brand span {
+    font-size: 12px;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: none;
+}
+
+.main-content {
+    padding: 30px 20px;
+}
+
+.text-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    margin: 10px 0;
+}
+
+.form-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-bar {
+    padding: 20px 0;
+    background-color: #7a2020;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-logo,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact i {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
